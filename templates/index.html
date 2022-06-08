@@ -1,0 +1,39 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+{{ super() }}
+	<style>
+		body { background: #e8f1f9; }
+	</style>
+{% endblock %}
+
+
+{% block title %}
+SSO Optimize (DS-PH Internal Only)
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-lg-8 mx-lg-auto mx-md-auto">
+        <h1 class="pt-5 pb-2">SSO Optimize (DS-PH Internal Only)</h1>
+
+        <p class="lead">Estimate a create shop factor based on outlets and their carried items</p>
+        <div>{{ wtf.quick_form(form, id="fileform", button_map={'submit':'dark'}) }}</div>
+        <br>
+        <div class="d-flex justify-content-center"><img id="container" style="display: none" src="{{ url_for('static', filename='load.gif') }}"></div>
+        <br>  
+
+        <p class="pt-1"><strong>Note: </strong>Please give the app a few minutes to finish the optimization. 
+            For the proper input excel file formatting, please request from john.landigin@gfk.com</p>
+        <br>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
+
+{% endblock %}
