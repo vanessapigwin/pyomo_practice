@@ -6,31 +6,31 @@
     "entrypoint": "main"
   },
   "python": {
-    "version": "3.9.12",
+    "version": "3.8.13",
     "package_manager": {
       "name": "pip",
-      "version": "21.2.4",
+      "version": "22.1.2",
       "package_file": "requirements.txt"
     }
   },
   "files": {
     "requirements.txt": {
-      "checksum": "105b25305a7a467ead60dfa9dcac7e7b"
+      "checksum": "0c2b296c91c5720348f780d58ae12f20"
     },
     ".env": {
       "checksum": "a8943bd88ef0cc5366131c2c2ff836f0"
     },
     ".git\\COMMIT_EDITMSG": {
-      "checksum": "04659b1946f9cc313866a318235d90f8"
+      "checksum": "552958442a53f40114e4eae951d62319"
     },
     ".git\\FETCH_HEAD": {
-      "checksum": "47d44b080cf047ad21569f14e2c6b7bb"
+      "checksum": "fde2be3a1852cfd32efe45151cb41ccc"
     },
     ".git\\HEAD": {
       "checksum": "4cf2d64e44205fe628ddd534e1151b58"
     },
     ".git\\ORIG_HEAD": {
-      "checksum": "4d1efaabb24b547e95afcaacc2db5ffb"
+      "checksum": "7781ddc253524be03dfa22f48ed52202"
     },
     ".git\\config": {
       "checksum": "3d9fca1144bd20bdbaec58d5410ee3d5"
@@ -78,22 +78,25 @@
       "checksum": "647ae13c682f7827c22f5fc08a03674e"
     },
     ".git\\index": {
-      "checksum": "5c52f12547033ea81418aa58e8255d27"
+      "checksum": "e4c19ce66bce9f5d475b81b7b5757033"
     },
     ".git\\info\\exclude": {
       "checksum": "036208b4a1ab4a235d75c181e685e5a3"
     },
     ".git\\logs\\HEAD": {
-      "checksum": "e7eabf8816d327b704e17c0fdd042e72"
+      "checksum": "b32835eca66cd85a9962db66ac220315"
     },
     ".git\\logs\\refs\\heads\\master": {
-      "checksum": "e7eabf8816d327b704e17c0fdd042e72"
+      "checksum": "b32835eca66cd85a9962db66ac220315"
     },
     ".git\\logs\\refs\\remotes\\origin\\master": {
-      "checksum": "7025d4310f42d8faf627aca89fabd4f0"
+      "checksum": "d9b46448bf8bc628f69f70e565c9d0fa"
     },
     ".git\\objects\\0d\\78c4924ad924bba36e672a832dc7699b81ce77": {
       "checksum": "85f56588a63b1d637db30cc466e787c9"
+    },
+    ".git\\objects\\0d\\cc0d5c8054a534b22c835992897833408a28f0": {
+      "checksum": "dc31558ad3cef6c747389caa4f69f8a7"
     },
     ".git\\objects\\1b\\aef9ee2c382c9c0b36c7b25d2e943130d2858f": {
       "checksum": "c74ede3d82002eb6239b0c2725935460"
@@ -134,6 +137,9 @@
     ".git\\objects\\9c\\81d849ae6f788fc432ff71da8108d46cd1dad0": {
       "checksum": "5b22dd7f509dd4675144fa365ec40520"
     },
+    ".git\\objects\\b1\\f3ae3de15e23758d30ba7b4a17980a467b3194": {
+      "checksum": "23ff1de126d71925f01242fb4e58e723"
+    },
     ".git\\objects\\b9\\5c8d8f7de960383e78b2d1888a8a6fe8ed7210": {
       "checksum": "09f79f29687be985f087ce4471e4c3fa"
     },
@@ -158,26 +164,38 @@
     ".git\\objects\\eb\\c9fc2d81336d99d494e3cd7b811ba9ff0ddd47": {
       "checksum": "5896ea8599597c61e2638912eab5f238"
     },
+    ".git\\objects\\f7\\b1acc39d4d64091e931672b56256a772d3349e": {
+      "checksum": "09ff9fdde64ccadafe9f3de9332bb011"
+    },
     ".git\\refs\\heads\\master": {
-      "checksum": "4d1efaabb24b547e95afcaacc2db5ffb"
+      "checksum": "7781ddc253524be03dfa22f48ed52202"
     },
     ".git\\refs\\remotes\\origin\\master": {
-      "checksum": "4d1efaabb24b547e95afcaacc2db5ffb"
+      "checksum": "7781ddc253524be03dfa22f48ed52202"
     },
     ".gitignore": {
       "checksum": "85e6a55b77bdb473beb7e299c1412285"
     },
+    "__pycache__\\preprocess.cpython-38.pyc": {
+      "checksum": "70b0e38df0a30da20447382abeb7fcbd"
+    },
     "__pycache__\\preprocess.cpython-39.pyc": {
       "checksum": "e6b5c302cf0241e934e33196fce9f0f9"
     },
+    "__pycache__\\sso_form.cpython-38.pyc": {
+      "checksum": "dfe1068d7daf28b82674e31e66ae797c"
+    },
     "__pycache__\\sso_form.cpython-39.pyc": {
       "checksum": "a5a8ebd9c4b4e3ee271e865683e60d24"
+    },
+    "__pycache__\\sso_model.cpython-38.pyc": {
+      "checksum": "2e4d0de492535597d9ab06333c2b6285"
     },
     "__pycache__\\sso_model.cpython-39.pyc": {
       "checksum": "4336692cfabb7a5b7ee39ad9a3dfb0d4"
     },
     "main.py": {
-      "checksum": "b97a3c32706f7c459bb718ffdb905479"
+      "checksum": "4f86e103df93f702004066977f8a9b8b"
     },
     "preprocess.py": {
       "checksum": "79ab5b61df2f74c4c30002575bd7e0b2"

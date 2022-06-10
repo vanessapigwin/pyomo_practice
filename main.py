@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from flask import Flask, render_template, send_file
+from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from preprocess import Excel_Processing as ep
 from sso_model import SSO_model
