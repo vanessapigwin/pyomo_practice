@@ -5,7 +5,7 @@ from pyomo.opt import SolverStatus, TerminationCondition
 
 
 
-SOLVER_PATH_EXE = os.path.join(os.getcwd(), 'solvers', 'bonmin.exe')
+SOLVER_PATH_EXE = os.path.join(os.getcwd(), 'linux_solvers', 'bonmin.exe')
 
 
 def SSO_model(data, shops, months, limits):
