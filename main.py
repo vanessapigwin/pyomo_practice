@@ -1,11 +1,14 @@
 import os
 from dotenv import load_dotenv
+from os.path import dirname, abspath
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from preprocess import Excel_Processing as ep
 from sso_model import SSO_model
 from sso_form import FileForm
 
+path = dirname(abspath(__file__)) + '/.env'
+load_dotenv(path)
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
