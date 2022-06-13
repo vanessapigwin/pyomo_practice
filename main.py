@@ -13,7 +13,7 @@ from sso_form import FileForm
 path = dirname(abspath(__file__)) + '/.env'
 load_dotenv(path)
 # set executable file
-os.chmod(SOLVER_PATH_EXE, stat.st_mode | 0o111)
+# os.chmod(SOLVER_PATH_EXE, stat.st_mode | 0o111)
 
 
 app = Flask(__name__)
