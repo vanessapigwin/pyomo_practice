@@ -1,14 +1,20 @@
-import os
+import os, stat
 from dotenv import load_dotenv
 from os.path import dirname, abspath
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from preprocess import Excel_Processing as ep
+from shop_opt.sso_model import SOLVER_PATH_EXE
 from sso_model import SSO_model
 from sso_form import FileForm
 
+
+# load envs
 path = dirname(abspath(__file__)) + '/.env'
 load_dotenv(path)
+# set executable file
+os.chmod(SOLVER_PATH_EXE, stat.st_mode | 0o111)
+
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
