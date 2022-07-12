@@ -26,7 +26,7 @@ Bootstrap(app)
 # set limits
 limits = {
     # max shops included in modeling output
-    'MAX_SHOPS' : 6,
+    'MAX_SHOPS' : 20,
     
     # maxmimum absolute difference (predicted-actual)
     'MAX_ABS_DIFF_TOTAL' : 500,
