@@ -19,7 +19,7 @@ os.chmod(SOLVER_PATH_EXE, st.st_mode | 0o111)
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
-app.config['MAX_CONTENT_LENGTH'] = 1 * 1024 * 1024 # 1 mb limit
+app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024 # 1 mb limit
 Bootstrap(app)
 
 
